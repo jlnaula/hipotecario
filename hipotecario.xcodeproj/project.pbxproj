@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E1A0A93D6B0B37A018CA4B /* libPods-hipotecario.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 504AD93FF2CC16DF4826B92F /* libPods-hipotecario.a */; };
+		7E2F90661D677659006C365B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F90651D677659006C365B /* AppDelegate.swift */; };
+		7E2F906D1D677659006C365B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F906B1D677659006C365B /* Main.storyboard */; };
+		7E2F906F1D677659006C365B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F906E1D677659006C365B /* Assets.xcassets */; };
+		7E2F90721D677659006C365B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2F90701D677659006C365B /* LaunchScreen.storyboard */; };
+		7E2F907D1D677659006C365B /* hipotecarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F907C1D677659006C365B /* hipotecarioTests.swift */; };
+		7E2F90881D677659006C365B /* hipotecarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F90871D677659006C365B /* hipotecarioUITests.swift */; };
+		7E2F90961D67912C006C365B /* SimulatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F90951D67912C006C365B /* SimulatorTableViewController.swift */; };
+		7E44FE831D70DF6900529BF7 /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44FE821D70DF6900529BF7 /* CustomInputView.swift */; };
+		7E769F941D74A00C005425F7 /* CustomInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E769F931D74A00C005425F7 /* CustomInputView.xib */; };
+		7E769F961D74A343005425F7 /* LeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E769F951D74A343005425F7 /* LeadViewController.swift */; };
+		7E769F9D1D74DDA2005425F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E769F9B1D74DDA2005425F7 /* Localizable.strings */; };
+		7E769FA11D74EE71005425F7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E769FA01D74EE71005425F7 /* Color.swift */; };
+		7EB8AB2C1D6E4F45006ADAE0 /* Lead0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8AB2B1D6E4F44006ADAE0 /* Lead0ViewController.swift */; };
+		7EB8AB301D6FA2B1006ADAE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB8AB2F1D6FA2B1006ADAE0 /* GoogleService-Info.plist */; };
+		7EB8AB331D6FB209006ADAE0 /* ProyectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8AB321D6FB209006ADAE0 /* ProyectListViewController.swift */; };
+		7EB8AB361D6FB4A9006ADAE0 /* B68UIFloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8AB351D6FB4A9006ADAE0 /* B68UIFloatLabelTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E2F90791D677659006C365B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2F905A1D677659006C365B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E2F90611D677659006C365B;
+			remoteInfo = hipotecario;
+		};
+		7E2F90841D677659006C365B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2F905A1D677659006C365B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E2F90611D677659006C365B;
+			remoteInfo = hipotecario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FAA20F40B78E8EC83618CC /* Pods-hipotecario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hipotecario.release.xcconfig"; path = "Pods/Target Support Files/Pods-hipotecario/Pods-hipotecario.release.xcconfig"; sourceTree = "<group>"; };
+		504AD93FF2CC16DF4826B92F /* libPods-hipotecario.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hipotecario.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2F90621D677659006C365B /* hipotecario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hipotecario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2F90651D677659006C365B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E2F906C1D677659006C365B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E2F906E1D677659006C365B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E2F90711D677659006C365B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E2F90731D677659006C365B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2F90781D677659006C365B /* hipotecarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hipotecarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2F907C1D677659006C365B /* hipotecarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hipotecarioTests.swift; sourceTree = "<group>"; };
+		7E2F907E1D677659006C365B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2F90831D677659006C365B /* hipotecarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hipotecarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2F90871D677659006C365B /* hipotecarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hipotecarioUITests.swift; sourceTree = "<group>"; };
+		7E2F90891D677659006C365B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2F90951D67912C006C365B /* SimulatorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorTableViewController.swift; sourceTree = "<group>"; };
+		7E44FE821D70DF6900529BF7 /* CustomInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomInputView.swift; path = Classes/UI/Lead/View/CustomInputView.swift; sourceTree = "<group>"; };
+		7E769F931D74A00C005425F7 /* CustomInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomInputView.xib; path = Classes/UI/Lead/View/CustomInputView.xib; sourceTree = "<group>"; };
+		7E769F951D74A343005425F7 /* LeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeadViewController.swift; path = Classes/UI/Lead/ViewController/LeadViewController.swift; sourceTree = "<group>"; };
+		7E769F9C1D74DDA2005425F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E769F9E1D74DDAC005425F7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E769FA01D74EE71005425F7 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Classes/Util/Color.swift; sourceTree = "<group>"; };
+		7EB8AB2B1D6E4F44006ADAE0 /* Lead0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lead0ViewController.swift; sourceTree = "<group>"; };
+		7EB8AB2F1D6FA2B1006ADAE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EB8AB321D6FB209006ADAE0 /* ProyectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProyectListViewController.swift; sourceTree = "<group>"; };
+		7EB8AB351D6FB4A9006ADAE0 /* B68UIFloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = B68UIFloatLabelTextField.swift; path = Classes/External/B68UIFloatLabelTextField.swift; sourceTree = "<group>"; };
+		7FDBFE92B37E675A9D6029A9 /* Pods-hipotecario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hipotecario.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hipotecario/Pods-hipotecario.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E2F905F1D677659006C365B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E1A0A93D6B0B37A018CA4B /* libPods-hipotecario.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2F90751D677659006C365B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2F90801D677659006C365B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208EDD0AC60C15F3AC3A7711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FDBFE92B37E675A9D6029A9 /* Pods-hipotecario.debug.xcconfig */,
+				02FAA20F40B78E8EC83618CC /* Pods-hipotecario.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E2F90591D677659006C365B = {
+			isa = PBXGroup;
+			children = (
+				7E2F90641D677659006C365B /* hipotecario */,
+				7E2F907B1D677659006C365B /* hipotecarioTests */,
+				7E2F90861D677659006C365B /* hipotecarioUITests */,
+				7E2F90631D677659006C365B /* Products */,
+				208EDD0AC60C15F3AC3A7711 /* Pods */,
+				D87F9E3362B0FDF6685E17BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E2F90631D677659006C365B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F90621D677659006C365B /* hipotecario.app */,
+				7E2F90781D677659006C365B /* hipotecarioTests.xctest */,
+				7E2F90831D677659006C365B /* hipotecarioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E2F90641D677659006C365B /* hipotecario */ = {
+			isa = PBXGroup;
+			children = (
+				7EB8AB371D6FB4AE006ADAE0 /* Classes */,
+				7E2F90651D677659006C365B /* AppDelegate.swift */,
+				7E2F906B1D677659006C365B /* Main.storyboard */,
+				7E2F906E1D677659006C365B /* Assets.xcassets */,
+				7E2F90701D677659006C365B /* LaunchScreen.storyboard */,
+				7E2F90731D677659006C365B /* Info.plist */,
+				7E2F90951D67912C006C365B /* SimulatorTableViewController.swift */,
+				7EB8AB2B1D6E4F44006ADAE0 /* Lead0ViewController.swift */,
+				7EB8AB321D6FB209006ADAE0 /* ProyectListViewController.swift */,
+				7EB8AB311D6FA2B8006ADAE0 /* Resources */,
+			);
+			path = hipotecario;
+			sourceTree = "<group>";
+		};
+		7E2F907B1D677659006C365B /* hipotecarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F907C1D677659006C365B /* hipotecarioTests.swift */,
+				7E2F907E1D677659006C365B /* Info.plist */,
+			);
+			path = hipotecarioTests;
+			sourceTree = "<group>";
+		};
+		7E2F90861D677659006C365B /* hipotecarioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F90871D677659006C365B /* hipotecarioUITests.swift */,
+				7E2F90891D677659006C365B /* Info.plist */,
+			);
+			path = hipotecarioUITests;
+			sourceTree = "<group>";
+		};
+		7E44FE7D1D70C83800529BF7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7E44FE7E1D70C84000529BF7 /* Lead */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7E44FE7E1D70C84000529BF7 /* Lead */ = {
+			isa = PBXGroup;
+			children = (
+				7E44FE811D70D62400529BF7 /* Presenter */,
+				7E44FE801D70D4BE00529BF7 /* View */,
+				7E44FE7F1D70D47B00529BF7 /* ViewController */,
+			);
+			name = Lead;
+			sourceTree = "<group>";
+		};
+		7E44FE7F1D70D47B00529BF7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E769F951D74A343005425F7 /* LeadViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7E44FE801D70D4BE00529BF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E44FE821D70DF6900529BF7 /* CustomInputView.swift */,
+				7E769F931D74A00C005425F7 /* CustomInputView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7E44FE811D70D62400529BF7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		7E769F9F1D74EE4A005425F7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7E769FA01D74EE71005425F7 /* Color.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		7EB8AB311D6FA2B8006ADAE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E769F9B1D74DDA2005425F7 /* Localizable.strings */,
+				7EB8AB2F1D6FA2B1006ADAE0 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7EB8AB371D6FB4AE006ADAE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E769F9F1D74EE4A005425F7 /* Util */,
+				7E44FE7D1D70C83800529BF7 /* UI */,
+				7EB8AB381D6FB4B5006ADAE0 /* External */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7EB8AB381D6FB4B5006ADAE0 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				7EB8AB351D6FB4A9006ADAE0 /* B68UIFloatLabelTextField.swift */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		D87F9E3362B0FDF6685E17BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504AD93FF2CC16DF4826B92F /* libPods-hipotecario.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E2F90611D677659006C365B /* hipotecario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2F908C1D677659006C365B /* Build configuration list for PBXNativeTarget "hipotecario" */;
+			buildPhases = (
+				7DA70A7DEDA34579C3836DA9 /* Check Pods Manifest.lock */,
+				7E2F905E1D677659006C365B /* Sources */,
+				7E2F905F1D677659006C365B /* Frameworks */,
+				7E2F90601D677659006C365B /* Resources */,
+				3D47AA66EBFABF5C8F468877 /* Embed Pods Frameworks */,
+				EE5D2F9656910EF4102D2201 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hipotecario;
+			productName = hipotecario;
+			productReference = 7E2F90621D677659006C365B /* hipotecario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E2F90771D677659006C365B /* hipotecarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2F908F1D677659006C365B /* Build configuration list for PBXNativeTarget "hipotecarioTests" */;
+			buildPhases = (
+				7E2F90741D677659006C365B /* Sources */,
+				7E2F90751D677659006C365B /* Frameworks */,
+				7E2F90761D677659006C365B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E2F907A1D677659006C365B /* PBXTargetDependency */,
+			);
+			name = hipotecarioTests;
+			productName = hipotecarioTests;
+			productReference = 7E2F90781D677659006C365B /* hipotecarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E2F90821D677659006C365B /* hipotecarioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2F90921D677659006C365B /* Build configuration list for PBXNativeTarget "hipotecarioUITests" */;
+			buildPhases = (
+				7E2F907F1D677659006C365B /* Sources */,
+				7E2F90801D677659006C365B /* Frameworks */,
+				7E2F90811D677659006C365B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E2F90851D677659006C365B /* PBXTargetDependency */,
+			);
+			name = hipotecarioUITests;
+			productName = hipotecarioUITests;
+			productReference = 7E2F90831D677659006C365B /* hipotecarioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E2F905A1D677659006C365B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BBVA;
+				TargetAttributes = {
+					7E2F90611D677659006C365B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7E2F90771D677659006C365B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7E2F90611D677659006C365B;
+					};
+					7E2F90821D677659006C365B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7E2F90611D677659006C365B;
+					};
+				};
+			};
+			buildConfigurationList = 7E2F905D1D677659006C365B /* Build configuration list for PBXProject "hipotecario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 7E2F90591D677659006C365B;
+			productRefGroup = 7E2F90631D677659006C365B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E2F90611D677659006C365B /* hipotecario */,
+				7E2F90771D677659006C365B /* hipotecarioTests */,
+				7E2F90821D677659006C365B /* hipotecarioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E2F90601D677659006C365B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2F90721D677659006C365B /* LaunchScreen.storyboard in Resources */,
+				7E769F9D1D74DDA2005425F7 /* Localizable.strings in Resources */,
+				7EB8AB301D6FA2B1006ADAE0 /* GoogleService-Info.plist in Resources */,
+				7E2F906F1D677659006C365B /* Assets.xcassets in Resources */,
+				7E769F941D74A00C005425F7 /* CustomInputView.xib in Resources */,
+				7E2F906D1D677659006C365B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2F90761D677659006C365B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2F90811D677659006C365B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D47AA66EBFABF5C8F468877 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hipotecario/Pods-hipotecario-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA70A7DEDA34579C3836DA9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5D2F9656910EF4102D2201 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hipotecario/Pods-hipotecario-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E2F905E1D677659006C365B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB8AB2C1D6E4F45006ADAE0 /* Lead0ViewController.swift in Sources */,
+				7EB8AB361D6FB4A9006ADAE0 /* B68UIFloatLabelTextField.swift in Sources */,
+				7E2F90961D67912C006C365B /* SimulatorTableViewController.swift in Sources */,
+				7E769F961D74A343005425F7 /* LeadViewController.swift in Sources */,
+				7E2F90661D677659006C365B /* AppDelegate.swift in Sources */,
+				7E769FA11D74EE71005425F7 /* Color.swift in Sources */,
+				7E44FE831D70DF6900529BF7 /* CustomInputView.swift in Sources */,
+				7EB8AB331D6FB209006ADAE0 /* ProyectListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2F90741D677659006C365B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2F907D1D677659006C365B /* hipotecarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2F907F1D677659006C365B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2F90881D677659006C365B /* hipotecarioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E2F907A1D677659006C365B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E2F90611D677659006C365B /* hipotecario */;
+			targetProxy = 7E2F90791D677659006C365B /* PBXContainerItemProxy */;
+		};
+		7E2F90851D677659006C365B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E2F90611D677659006C365B /* hipotecario */;
+			targetProxy = 7E2F90841D677659006C365B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E2F906B1D677659006C365B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2F906C1D677659006C365B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E2F90701D677659006C365B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2F90711D677659006C365B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E769F9B1D74DDA2005425F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E769F9C1D74DDA2005425F7 /* en */,
+				7E769F9E1D74DDAC005425F7 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E2F908A1D677659006C365B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E2F908B1D677659006C365B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E2F908D1D677659006C365B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDBFE92B37E675A9D6029A9 /* Pods-hipotecario.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hipotecario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iostestflight1.hipotecario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E2F908E1D677659006C365B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FAA20F40B78E8EC83618CC /* Pods-hipotecario.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hipotecario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iostestflight1.hipotecario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E2F90901D677659006C365B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hipotecarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iostestflight1.hipotecarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hipotecario.app/hipotecario";
+			};
+			name = Debug;
+		};
+		7E2F90911D677659006C365B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hipotecarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iostestflight1.hipotecarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hipotecario.app/hipotecario";
+			};
+			name = Release;
+		};
+		7E2F90931D677659006C365B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hipotecarioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iostestflight1.hipotecarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hipotecario;
+			};
+			name = Debug;
+		};
+		7E2F90941D677659006C365B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hipotecarioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iostestflight1.hipotecarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hipotecario;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E2F905D1D677659006C365B /* Build configuration list for PBXProject "hipotecario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2F908A1D677659006C365B /* Debug */,
+				7E2F908B1D677659006C365B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2F908C1D677659006C365B /* Build configuration list for PBXNativeTarget "hipotecario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2F908D1D677659006C365B /* Debug */,
+				7E2F908E1D677659006C365B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2F908F1D677659006C365B /* Build configuration list for PBXNativeTarget "hipotecarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2F90901D677659006C365B /* Debug */,
+				7E2F90911D677659006C365B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2F90921D677659006C365B /* Build configuration list for PBXNativeTarget "hipotecarioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2F90931D677659006C365B /* Debug */,
+				7E2F90941D677659006C365B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E2F905A1D677659006C365B /* Project object */;
+}

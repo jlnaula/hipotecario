@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  hipotecario
+
+  Created by Jorge Naula Rios on 8/29/16.
+  Copyright © 2016 BBVA. All rights reserved.
+*/
+
+
+/*LEAD*/
+
+"TEXTFIELD_PLACEHOLDER_DOCUMENT_TYPE" = "Document Type";
+"TEXTFIELD_PLACEHOLDER_DOCUMENT_NUMBER" = "Document Number";
+"TEXTFIELD_PLACEHOLDER_PHONE" = "Phone Number";
+"TEXTFIELD_PLACEHOLDER_EMAIL" = "Email";
+"BUTTON_SUBMIT" = "Submit";

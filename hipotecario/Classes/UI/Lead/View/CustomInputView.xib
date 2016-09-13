@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomInputView" customModule="hipotecario" customModuleProvider="target">
+            <connections>
+                <outlet property="fltfi" destination="NLs-Z4-TYx" id="b66-Sz-ZmJ"/>
+                <outlet property="ima" destination="cUy-hL-IVM" id="DPS-BR-IFs"/>
+                <outlet property="view" destination="iN0-l3-epB" id="4AR-8J-hT1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cUy-hL-IVM">
+                    <rect key="frame" x="10" y="10" width="30" height="30"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="gkR-IM-WrP"/>
+                        <constraint firstAttribute="width" constant="30" id="hQS-Fw-TG3"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NLs-Z4-TYx" customClass="B68UIFloatLabelTextField" customModule="hipotecario" customModuleProvider="target">
+                    <rect key="frame" x="46" y="10" width="264" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Lho-0L-Kcp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="activeTextColorfloatingLabel">
+                            <color key="value" red="0.20870006224788928" green="0.44097429074249311" blue="0.84542713989999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="inactiveTextColorfloatingLabel">
+                            <color key="value" red="0.24482473107496205" green="0.58490136228669143" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NLs-Z4-TYx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="23U-Fe-hOQ"/>
+                <constraint firstItem="cUy-hL-IVM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="L74-OB-AhH"/>
+                <constraint firstAttribute="trailing" secondItem="NLs-Z4-TYx" secondAttribute="trailing" constant="10" id="M6z-G4-pYV"/>
+                <constraint firstItem="NLs-Z4-TYx" firstAttribute="leading" secondItem="cUy-hL-IVM" secondAttribute="trailing" constant="6" id="qoo-vQ-dDO"/>
+                <constraint firstItem="cUy-hL-IVM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="rhS-da-o9J"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="178" y="29"/>
+        </view>
+    </objects>
+</document>
